@@ -11,10 +11,18 @@
 		419B9DAD2CBE137C00379E1F /* Pow in Frameworks */ = {isa = PBXBuildFile; productRef = 419B9DAC2CBE137C00379E1F /* Pow */; };
 		419B9DB02CBE138300379E1F /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = 419B9DAF2CBE138300379E1F /* Shimmer */; };
 		419B9DB32CBE138D00379E1F /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 419B9DB22CBE138D00379E1F /* ZIPFoundation */; };
+		419B9E1C2CBE59BD00379E1F /* FileProviderUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B9E1B2CBE59BD00379E1F /* FileProviderUI.framework */; };
+		419B9E1D2CBE59E300379E1F /* FileProviderUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B9E1B2CBE59BD00379E1F /* FileProviderUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		419B9D742CBDFF7F00379E1F /* PURPLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PURPLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		419B9E1B2CBE59BD00379E1F /* FileProviderUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileProviderUI.framework; path = System/Library/Frameworks/FileProviderUI.framework; sourceTree = SDKROOT; };
+		419B9E1E2CBE59E300379E1F /* FileProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileProvider.framework; path = System/Library/PrivateFrameworks/FileProvider.framework; sourceTree = SDKROOT; };
+		419B9E1F2CBE59E300379E1F /* libManagedConfigurationFiles.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libManagedConfigurationFiles.tbd; path = usr/lib/libManagedConfigurationFiles.tbd; sourceTree = SDKROOT; };
+		419B9E202CBE59E300379E1F /* libremovefile.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libremovefile.tbd; path = usr/lib/system/libremovefile.tbd; sourceTree = SDKROOT; };
+		419B9E212CBE59E300379E1F /* libswiftFileProvider.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftFileProvider.tbd; path = usr/lib/swift/libswiftFileProvider.tbd; sourceTree = SDKROOT; };
+		419B9E222CBE59E300379E1F /* libcopyfile.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcopyfile.tbd; path = usr/lib/system/libcopyfile.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -30,8 +38,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419B9E1C2CBE59BD00379E1F /* FileProviderUI.framework in Frameworks */,
 				419B9DB02CBE138300379E1F /* Shimmer in Frameworks */,
 				419B9DAA2CBE137400379E1F /* Wave in Frameworks */,
+				419B9E1D2CBE59E300379E1F /* FileProviderUI.framework in Frameworks */,
 				419B9DAD2CBE137C00379E1F /* Pow in Frameworks */,
 				419B9DB32CBE138D00379E1F /* ZIPFoundation in Frameworks */,
 			);
@@ -44,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				419B9D762CBDFF7F00379E1F /* PURPLE */,
+				419B9E1A2CBE59BD00379E1F /* Frameworks */,
 				419B9D752CBDFF7F00379E1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +65,19 @@
 				419B9D742CBDFF7F00379E1F /* PURPLE.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		419B9E1A2CBE59BD00379E1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				419B9E1E2CBE59E300379E1F /* FileProvider.framework */,
+				419B9E222CBE59E300379E1F /* libcopyfile.tbd */,
+				419B9E1F2CBE59E300379E1F /* libManagedConfigurationFiles.tbd */,
+				419B9E202CBE59E300379E1F /* libremovefile.tbd */,
+				419B9E212CBE59E300379E1F /* libswiftFileProvider.tbd */,
+				419B9E1B2CBE59BD00379E1F /* FileProviderUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
