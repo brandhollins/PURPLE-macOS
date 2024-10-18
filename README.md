@@ -1,6 +1,7 @@
 # Purple | MacOS File Management and Organization 🔮
 
 Purple is a MacOS app that simplifies file management and organization. It offers smart tools to efficiently handle, organize, and enhance your files, saving time for both professionals and everyday users.
+
 <img width="1920" alt="PURPLE-COVER" src="https://github.com/user-attachments/assets/94867d81-727a-4fd8-b62d-68fc14875eec">
 
 ## Key Features 🚀
